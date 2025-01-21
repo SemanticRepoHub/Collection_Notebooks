@@ -66,7 +66,7 @@ This notebook demonstrates repository parsing techniques for Java and C projects
 
    * [PythonSim.ipynb](https://colab.research.google.com/drive/1BWSxM95NPGrmkpXH_2iGiKSpDUhpt_WE?usp=sharing)
    * [JavaSim.ipynb](https://colab.research.google.com/drive/1ZhsSyosX1p4Xy0-88YM1n62JENqydi7S?usp=sharing)
-   * [parsing_java_c_test.ipynb](https://colab.research.google.com/§drive/1yy6x7BjHz_vlMfov2KODghR4tjOCi6gq?usp=sharing)
+   * [parsing_java_c_test.ipynb](https://colab.research.google.com/drive/1yy6x7BjHz_vlMfov2KODghR4tjOCi6gq?usp=sharing)
 
 ---
 
