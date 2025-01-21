@@ -1,6 +1,6 @@
 # README
 
-This repository contains three Jupyter notebooks designed for analyzing repositories and code snippets in Python, Java, and C/C++ using embedding techniques and similarity analysis. These notebooks are ideally run on **Google Colab** to leverage its computational resources.
+This repository contains three Jupyter notebooks designed for parsing and analyzing repositories and code snippets in Python, Java, and C using embedding techniques and similarity analysis. These notebooks are ideally run on **Google Colab** to leverage its computational resources.
 
 ---
 
@@ -69,11 +69,11 @@ This notebook demonstrates repository parsing techniques for Java and C projects
 ---
 
 ## Requirements
-- **Google Colab** environment.
-- Python packages such as `transformers`, `torch`, and other dependencies (automatically installed in each notebook).
+- **Google Colab** environment - with a google account will be enough to run those. 
+- If running locally, Python packages such as `transformers`, `torch`, and other dependencies (automatically installed in each notebook).
+- Note that inspect4py needs a Python 3.10 enviroment - this is necessary to do when running the notebooks locally. In google colab not need to create a conda enviroment, they work directly with the provided code.
 
 ---
 
 ## Note
-These notebooks are designed for demonstration purposes and provide insights into code and repository analysis using embeddings. For large-scale analysis, additional optimizations may be required.
-
+These notebooks are designed for demonstration purposes and provide insights into code and repository parsing (using ASTs) analysis (using embeddings). 
