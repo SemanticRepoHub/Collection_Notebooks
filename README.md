@@ -6,7 +6,7 @@ This repository contains three Jupyter notebooks designed for parsing and analyz
 
 ## 1. **PythonSim.ipynb**
 ### Description
-This notebook focuses on Python repositories and code snippet analysis. It employs [**inspect4py**](https://github.com/SemanticRepoHub/inspect4py) repository parsing library, and  **RepoSim4Py** model (pipeline)[1](https://github.com/SemanticRepoHub/RepoSim4py)[2](https://huggingface.co/Henry65/RepoSim4Py) to:
+This notebook focuses on Python repositories and code snippet analysis. It employs [**inspect4py**](https://github.com/SemanticRepoHub/inspect4py) repository parsing library, and  **RepoSim4Py** model (pipeline)[1](https://github.com/SemanticRepoHub/RepoSim4py); and [2](https://huggingface.co/Henry65/RepoSim4Py) to:
 
 - Genate Python code snippets embeddings and compute their similarity. 
 - Parse and extract repository metadata.
