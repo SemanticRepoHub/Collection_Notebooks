@@ -6,17 +6,24 @@ This repository contains three Jupyter notebooks designed for analyzing reposito
 
 ## 1. **PythonSim.ipynb**
 ### Description
-This notebook focuses on Python repositories and code snippet analysis. It employs the **RepoSim4Py** model to:
+This notebook focuses on Python repositories and code snippet analysis. It employs [**inspect4py**](https://github.com/SemanticRepoHub/inspect4py) repository parsing library, and  **RepoSim4Py** model (pipeline)[1](https://github.com/SemanticRepoHub/RepoSim4py)[2](https://huggingface.co/Henry65/RepoSim4Py) to:
+
+- Genate Python code snippets embeddings and compute their similarity. 
 - Parse and extract repository metadata.
 - Generate multi-level embeddings (code, documentation, README, and requirements).
 - Compute semantic similarity between repositories at different levels.
 
 ### Key Features
+- Code Snippet similarity
+- Extract all the information: functions, imports, classes, methods, code, etc ... from a Python repository
 - Uses embeddings to represent repositories at various granularities.
 - Computes cosine similarity scores for code, documentation, README, and overall repository content.
 - Outputs similarity results in a clear tabular format.
 
 ### Ideal Use Case
+
+- Understanding how to generate embeddings from code snippets, and compute their similarity (cosine similarity)
+- Understanding how to use inspect4py and extract information
 - Analyzing Python repository structures and relationships.
 - Performing semantic comparisons of Python codebases.
 
@@ -25,33 +32,31 @@ This notebook focuses on Python repositories and code snippet analysis. It emplo
 ## 2. **JavaSim.ipynb**
 ### Description
 This notebook extends the analysis framework to Java repositories using a similar embedding approach. It covers:
-- Parsing Java repositories for metadata and structure.
-- Generating embeddings for Java code components.
-- Comparing semantic similarities across Java repositories.
+- Genate Java code snippets embeddings and compute their similarity. Here we are using [Unixcoder DL model](https://huggingface.co/Lazyhope/unixcoder-nine-advtest) (more research is needed).  
+- Parsing Java repositories for code and documentation.
 
 ### Key Features
-- Uses a custom embedding model for Java.
-- Focuses on multi-level embeddings tailored to Java repositories.
-- Outputs similarity results for Java repositories.
+- Uses a custom embedding model for Java - more exploration will be needed.
+- Understand how to extract code and documentation from Java files
 
 ### Ideal Use Case
-- Semantic analysis of Java repositories.
+- Basic semantic analysis of Java snippets. More research is needed to understand what is best model to use - we used Unixcoder just as an example. 
 - Identifying relationships between Java projects based on embeddings.
 
 ---
 
 ## 3. **parsing_java_c_test.ipynb**
 ### Description
-This notebook demonstrates repository parsing techniques for Java and C/C++ projects. It:
+This notebook demonstrates repository parsing techniques for Java and C projects. It:
 - Extracts metadata, dependencies, and code structure.
-- Provides basic analysis for repositories written in Java and C/C++.
+- Provides basic analysis for repositories written in Java and C.
 
 ### Key Features
 - Focuses on metadata extraction and structure visualization.
 - Demonstrates parsing without in-depth embedding generation.
 
 ### Ideal Use Case
-- Preprocessing and metadata extraction for Java and C/C++ projects.
+- Preprocessing and metadata extraction for Java and C projects.
 - Repository structure analysis before applying advanced embedding techniques.
 
 ---
